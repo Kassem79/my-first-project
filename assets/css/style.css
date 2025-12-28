@@ -120,4 +120,8 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    logo {
+        font-size: 200%;
+    }
 }
