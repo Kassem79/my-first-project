@@ -220,6 +220,24 @@ main {
         width: 100px;
         right: 50px;
     }
+
+    /* Reasons section */
+    #Quality,
+    #Matrial-Quality {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #Quality> div
+    #Matrial-Quality > div {
+        width: 75%;
+    }
+
+     #Matrial-Quality > div {
+        text-align: end;
+        align-self: flex-end;
+     }
 }
 
 /* Larger devices (laptops and disktops, 992px and up) */
@@ -227,4 +245,32 @@ main {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         } 
+@media screen and (min-width: 1200px) {
+    /*Reason section */
+    #Quality {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Quality > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #Matrial-Quality {
+        order: 1;
+    }
+
+    #Matrial-Quality > div {
+        align-self: flex-start;
+    }
+
+    #GET SOCAIL > div {
+        align-self: flex-end;
+    }
+}
+
     }
